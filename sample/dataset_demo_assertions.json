@@ -1,0 +1,42 @@
+[
+    {
+        "label": "metaphysic.description",
+        "data": {
+            "name": "Metaphysic Test Dataset for C2PA",
+            "description": "The dataset represents a given identity's biometric features captured on video footage. It is designed to test C2PA (Coalition for Content Provenance and Authenticity) implementation across machine learning face-swap datasets.",
+            "version": "1.0",
+            "citation": "Metaphysic Test Dataset for C2PA, Metaphysic.ai, 2024."
+        }
+    },
+    {
+        "label": "metaphysic.collection.process",
+        "data": {
+            "data_source": "The videos were sourced from controlled environments to ensure high-quality biometric data representation.",
+            "collection_period": "The specific period of data collection is not provided.",
+            "privacy_consent": "The dataset was created with the consent of all individuals whose biometric data is represented, adhering to privacy and data protection standards."
+        }
+    },
+    {
+        "label": "metaphysic.data_preprocessing",
+        "data": {
+            "preprocessing_steps": "The dataset was created by splitting a single footage into three separate files for training, evaluation, and test purposes.",
+            "tools_Libraries_used": "Custom scripts were used for splitting the footage into the respective files without compromising the integrity and quality of the video data."
+        }
+    },
+    {
+        "label": "metaphysic.dataset_usage",
+        "data": {
+            "intended_use": "To test C2PA implementation across ML face-swap datasets for model trainings and model outputs.",
+            "use_case_examples": "Ideal for researchers and developers working on content authenticity, digital forensics, and the development of tools to detect deepfakes.",
+            "limitations": "The dataset, while comprehensive, might not cover all possible variations and scenarios encountered in real-world settings. Users are advised to complement this dataset with other datasets for robust testing.",
+            "licensing": "Open-source. Users are free to use, modify, and distribute the dataset with attribution."
+        }
+    },
+    {
+        "label": "metaphysic.ethical_considerations",
+        "data": {
+            "ethical_risks": "There is a risk of misuse if the dataset is used to develop technology for unauthorized surveillance or privacy invasion.",
+            "mitigation_strategies": "The dataset is intended for academic and research purposes only. Users are encouraged to adhere to ethical guidelines and respect privacy rights when using this dataset."
+        }
+    }
+]

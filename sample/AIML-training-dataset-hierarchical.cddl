@@ -1,0 +1,38 @@
+
+; Top level manifest for the collected datasets that comprise the entire training dataset
+; =======================================================================================================
+; Asset Reference Assertion (ARA)
+{
+  "references": [
+    {
+      "description": "Location of the training dataset partitioned top level manifest",
+      "reference": {
+          "uri": "https://github.com/Metaphysic-ai/c2pa-demo/tree/main/sample"
+        }
+    }
+  ]
+}
+; =======================================================================================================
+; Collection Data Hash for training, test, and evalulation data
+{
+    "alg": "sha256",
+    "uris": [
+        ; three manifests that each have a reference to the directory with the files 
+        {
+            "uri": "training/Metaphysic C2PA training partition dataset.mp4",
+            "hash": 'bf928ee813c7fa3d1188aaef1da8523f629f96a03eb3bea318c5bb50ddb9430c',
+            "dc:format": "video/H264",  
+        }
+        {
+            "uri": "test/Metaphysic C2PA test partition dataset.mp4",
+            "hash": 'bf0aa3ff35ebaab116bfe032c118b3a59c83e847695c4b816aa9df91c04aff7a',
+            "dc:format": "video/H264",  
+        }
+        {
+            "uri": "eval/Metaphysic C2PA evalulation partition dataset.mp4",
+            "hash": 'bc80118c2cd2124ebcd7d7f7939c83914851a2c57b6388a1c15181aa86088286',
+            "dc:format": "video/H264",    
+        }
+    ],
+    
+}
