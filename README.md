@@ -1,6 +1,6 @@
 # Metaphysic C2PA Public Dataset
 
-Welcome to the official repository for the Metaphysic C2PA Dataset. This dataset is part of a collaborative effort to support the C2PA initiative, which aims to foster the development of technologies for establishing content provenance and authenticity. The dataset includes experimental data along with a comprehensive C2PA manifest designed to enable research and development in digital content provenance.
+Welcome to the official repository for the Metaphysic C2PA Dataset. This dataset is part of a collaborative effort to support the [C2PA initiative](https://www.c2pa.org), which aims to foster the development of technologies for establishing content provenance and authenticity. The dataset includes experimental data along with a comprehensive C2PA manifest designed to enable research and development in digital content provenance.
 
 ## About the Dataset
 
