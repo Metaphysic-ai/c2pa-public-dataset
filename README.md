@@ -20,7 +20,7 @@ Please ensure that all uses of the dataset comply with the included license agre
 
 ## License
 
-This dataset is provided under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). This license allows others to remix, tweak, and build upon the work non-commercially, as long as they credit you and license their new creations under the identical terms.
+This dataset is provided under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). This [license](https://github.com/Metaphysic-ai/c2pa-public-dataset/blob/main/license.md) allows others to remix, tweak, and build upon the work non-commercially, as long as they credit you and license their new creations under the identical terms.
 
 ## Contributing
 
