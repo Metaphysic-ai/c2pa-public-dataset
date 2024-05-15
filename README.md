@@ -9,7 +9,7 @@ The Metaphysic C2PA Dataset is a proprietary collection of data that has been sp
 ## Dataset Contents
 
 - **C2PA Manifests**: Structured data files containing metadata and provenance information aligned with C2PA standards.
-- **Ethical Guidelines**: Documentation outlining the ethical framework and considerations for using this dataset.
+- **Ethical Guidelines**: [Documentation](https://github.com/Metaphysic-ai/c2pa-public-dataset/tree/main) outlining the ethical framework and considerations for using this dataset.
 - **Sample Data**: A set of sample entries demonstrating the types of content and metadata included in the dataset.
 
 ## Usage
