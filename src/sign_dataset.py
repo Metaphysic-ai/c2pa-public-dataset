@@ -15,37 +15,33 @@ class C2paDataset:
 
         partition_files = {
             "training": [
-                (
-                    f"{data_dir}/training/Metaphysic C2PA training partition dataset.mp4",
-                    "training/Metaphysic C2PA training partition dataset.c2pa",
-                    "metaphysic.training_dataset"
-                ),
+                {
+                    "file_path": f"{data_dir}/training/Metaphysic C2PA training partition dataset.mp4",
+                    "ingredient_label": "metaphysic.training_dataset",
+                },
             ],
             "test": [
-                (
-                    f"{data_dir}/test/Metaphysic C2PA test partition dataset.mp4",
-                    "test/Metaphysic C2PA test partition dataset.c2pa",
-                    "metaphysic.test_dataset"
-                ),
+                {
+                    "file_path": f"{data_dir}/test/Metaphysic C2PA test partition dataset.mp4",
+                    "ingredient_label": "metaphysic.test_dataset",
+                },
             ],
             "evaluation": [
-                (
-                    f"{data_dir}/evaluation/Metaphysic C2PA evaluation partition dataset.mp4",
-                    "evaluation/Metaphysic C2PA evaluation partition dataset.c2pa",
-                    "metaphysic.evaluation_dataset"
-                ),
+                {
+                    "file_path": f"{data_dir}/evaluation/Metaphysic C2PA evaluation partition dataset.mp4",
+                    "ingredient_label": "metaphysic.evaluation_dataset",
+                },
             ],
             "AIML-training-dataset-hierarchical": [
-                (
-                    f"{data_dir}/AIML-training-dataset-hierarchical.cddl",
-                    None,
-                    "metaphysic.AIML-training-dataset-hierarchical"
-                ),
+                {
+                    "file_path": f"{data_dir}/AIML-training-dataset-hierarchical.cddl",
+                    "ingredient_label": "metaphysic.AIML-training-dataset-hierarchical"
+                },
             ],
         }
 
         c2pa_sign = C2paSign(title, assertions)
-        c2pa_sign.sign_files(partition_files, manifests_dir=data_dir)
+        c2pa_sign.sign_files(partition_files)
 
 if __name__ == '__main__':
     C2paDataset()

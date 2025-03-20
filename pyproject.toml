@@ -1,14 +1,15 @@
 [tool.poetry]
-name = "c2pa-demo"
-version = "0.1.0"
+name = "c2pa-public-dataset"
+version = "0.2.0"
 description = ""
 authors = ["Germano Gustavo Gesser <germano@metaphysic.ai>"]
 readme = "README.md"
-packages = [{include = "c2pa_demo"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-c2pa-python = "^0.4.0"
+c2pa-python = "^0.6.1"
+cryptography = "^44.0.2"
 
 
 [build-system]
