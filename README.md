@@ -24,7 +24,8 @@ This dataset is provided under the Creative Commons Attribution-NonCommercial 4.
 
 ## Contributing
 
-Contributions to the dataset are welcome, especially those that improve the quality and usefulness of the data in line with C2PA standards. 
+Contributions to the dataset are welcome, especially those that improve the quality and usefulness of the data in line with C2PA standards.
+
 ## Contact
 
 For more information on the Metaphysic C2PA Dataset, please contact us via email at [info@metaphysic.ai](mailto:info@metaphysic.ai).
@@ -37,7 +38,26 @@ This project contributes to the C2PA initiative, underlining our commitment to e
 
 To get started with the Metaphysic C2PA Dataset, please clone this repository and review the documentation provided.
 
+* Clone repository
 ```bash
-git clone https://github.com/yourorganization/metaphysic-c2pa-dataset.git
-cd metaphysic-c2pa-dataset
+git clone https://github.com/Metaphysic-ai/c2pa-public-dataset.git
+cd c2pa-public-dataset
+```
 
+* Install poetry and dependencies
+```bash
+pip install poetry
+poetry install
+```
+
+* Sign the dataset
+```bash
+cd src
+poetry run python sign_dataset.py
+```
+
+* Check the signed files
+```bash
+cd src
+poetry run python -m extract.c2pa_extract file_path
+```

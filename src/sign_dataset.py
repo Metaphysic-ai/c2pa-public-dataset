@@ -1,4 +1,3 @@
-import os
 import json
 
 from sign.c2pa_sign import C2paSign
